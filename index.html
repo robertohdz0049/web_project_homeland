@@ -7,62 +7,52 @@
       name="description"
       content="Galería de arte, de patria a patria, conoce a las personas que forman parte de TripleTen."
     />
+    <meta name="author" content="Roberto Hernández" />
     <meta
       name="keywords"
       content="Arte, Galería, Patria, Kentucky, Burundi, TripleTen"
     />
-    <meta name="author" content="Roberto Hernández" />
-
-    <title>TRIPLETEN ART GALLERY</title>
-    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>TRIPLETEN ART GALLERY</title>
   </head>
-
   <body>
     <div class="page">
       <header class="header">
         <img
+          src="images/Logo-icon.svg"
+          alt="Logo de la galeria de Triple ten"
           class="header__logo"
-          src="./images/Logo-icon.svg"
-          alt="Logo Tripleten Art Gallery"
         />
-        <h1 class="header__title">
-          <span class="header__title-accent"> De&nbsp;patria&nbsp;a</span>
-          <span class="header__title-regular"> patria </span>
-        </h1>
-        <p class="header__subtitle">
-          Un viaje épico de Kentucky a Burundi pasando por
-          <span class="header__subtitle-accent">
-            Gales&nbsp;y&nbsp;Ucrania</span
-          >
-        </p>
-      </header>
 
-      <main class="content">
-        <section class="content__image">
-          <img
-            class="content__main-image"
-            src="./images/Main-photo.png"
-            alt="Paisaje en blanco y negro con casas y mar"
-          />
+        <section class="header__content">
+          <h1 class="header__title">De patria a patria</h1>
+          <p class="header__subtitle">
+            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+          </p>
+          <div class="header__image-wrapper">
+            <img
+              src="images/Main-photo.png"
+              alt="paisaje de Ucrania"
+              class="header__image"
+            />
+          </div>
         </section>
-        <section class="content__intro">
-          <p class="content__intro-text">
+      </header>
+      <main class="content">
+        <section class="content__inicio">
+          <h2 class="content__title">
             Conoce un poco mejor los lugares de los que proceden tus colegas en
             línea
-          </p>
-        </section>
-        <section class="intro__quote">
-          <p class="intro__quote-text">
+          </h2>
+          <p class="content__subtitle">
             Todo ser humano es un artista, un ser de la libertad, llamado a
             participar en la transformación y reforma de las condiciones, el
             pensamiento y las estructuras que conforman e influyen en nuestras
             vidas.
-            <span class="intro__quote-author"> — Joseph Beuys</span>
           </p>
-        </section>
-        <section class="intro__text">
-          <p class="intro__text-regular">
+          <p class="content__author">— Joseph Beuys</p>
+          <p class="content__text">
             La ciudad de TripleTen ha reunido a profesionales de diferentes
             rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
             de presentar historias y fotografías de algunas de las personas que
@@ -76,7 +66,7 @@
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2025. Roberto Hernández</p>
+        <p class="footer__author">&copy; 2025. Roberto Hernández</p>
       </footer>
     </div>
   </body>
