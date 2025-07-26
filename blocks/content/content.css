@@ -1,0 +1,38 @@
+.content__image {
+  display: flex;
+  justify-content: center;
+  margin: 3.12vw auto;
+}
+
+.content__main-image {
+  width: 100%;
+  max-width: 76.87vw;
+  height: auto;
+  object-fit: cover;
+}
+
+.content__intro-text {
+  max-width: 62.5vw;
+  margin: 1.87vw auto 3.12vw 10.93vw;
+  padding: 0 1.25vw;
+  font-size: 4.21vw;
+  font-weight: 900;
+  line-height: 4.53vw;
+  display: flex;
+  justify-content: left;
+}
+
+@media (max-width: 1024px) {
+  .content__intro-text {
+    font-size: 3.9vw;
+    line-height: 4.29vw;
+  }
+}
+
+@media (max-width: 544px) {
+  .content__intro-text {
+    font-size: 5.14vw;
+    line-height: 5.88vw;
+    padding: 0 2.2vw;
+  }
+}

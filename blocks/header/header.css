@@ -1,0 +1,57 @@
+.header {
+  text-align: center;
+  padding: 3.125vw 1.25vw 1.875vw;
+}
+
+.header__logo {
+  width: 19.9vw;
+  height: auto;
+  margin-bottom: 0.625vw;
+}
+
+.header__title {
+  font-size: 7.5vw;
+  font-weight: 900;
+  line-height: 7.8vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "inter";
+}
+
+.header__title-accent {
+  display: block;
+}
+
+.header__title-regular {
+  display: block;
+}
+
+.header__subtitle {
+  font-size: 2.34vw;
+  line-height: 2.81vw;
+  font-weight: 400;
+  margin: 0;
+  font-family: "inter";
+}
+
+.header__subtitle-accent {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 6vw;
+  }
+  .header__subtitle {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .header__title {
+    font-size: 4.8vw;
+  }
+  .header__subtitle {
+    font-size: 1.8vw;
+  }
+}
