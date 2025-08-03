@@ -1,0 +1,5 @@
+@media screen and (max-width: 544px) {
+  .places__list {
+    padding: 0 16px;
+  }
+}
